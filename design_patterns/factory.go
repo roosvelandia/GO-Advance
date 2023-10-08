@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// Creational pattern
+
 // main definition for behaviour of an object
 type IProduct interface {
 	setStock(stock int)

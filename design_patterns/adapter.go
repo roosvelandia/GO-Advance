@@ -2,7 +2,8 @@ package main
 
 import "fmt"
 
-// adapta el comportamiento de una clase para no implementar completamente una interface
+// Structural pattern
+// adapta una clase para no implementar completamente una interface
 // interface with a method
 type Payment interface {
 	Pay()

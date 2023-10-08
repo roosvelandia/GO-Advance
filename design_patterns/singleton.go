@@ -6,6 +6,7 @@ import (
 	"time"
 )
 
+// creacional pattern
 type Database struct{}
 
 var db *Database
