@@ -31,7 +31,7 @@ func HandleConnection(conn net.Conn) {
 
 	// set client name and receive welcome message
 	clientName := conn.RemoteAddr().String()
-	message <- fmt.Sprintf("Welcome to the server, your name is %s \n" + clientName)
+	message <- fmt.Sprintf("Welcome to the server, your name is %s \n", clientName)
 	messages <- fmt.Sprintf("New Client is here, name %s \n", clientName)
 	// set the channel for new clients
 	incommingClients <- message
