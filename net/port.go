@@ -14,7 +14,7 @@ func main() {
 			continue
 		}
 		conn.Close()
-		fmt.Printf("Puerto : &d open \n", i)
+		fmt.Printf("Puerto : %d open \n", i)
 
 	}
 }
